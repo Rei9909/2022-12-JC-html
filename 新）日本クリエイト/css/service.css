@@ -1,0 +1,215 @@
+.main {
+  font-family: 'Shippori Mincho', serif;
+  width: 100%;
+  background-color: #FBFBFB;
+  overflow: hidden;
+}
+
+.main__line {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*-------------------------------共通事項------------------------------*/
+
+.ttl {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.ttl__main {
+  font-size: 60px;
+}
+
+.ttl__sub {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.text__catchcopy {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+/*--コンテンツ（タイトルから８％寄せ）--*/
+.service__contents,
+.image__contents {
+  margin-left: 8%;
+}
+
+.move {
+  margin: 150px 0;
+  text-align: center;
+  font-size: 16px;
+}  
+
+
+/*-------------------------------opacity------------------------------*/
+
+
+/*--opacity-右寄せ下--*/
+.opacity-service {
+  position: absolute;
+  right: -13%;
+  bottom: 0;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 180px;
+  color: #c4c4c4;
+  opacity: 0.2;
+}
+
+/*--opacity-右寄せ中央--*/
+.opacity__business {
+  position: absolute;
+  right: -13%;
+  bottom: -40px;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 180px;
+  color: #c4c4c4;
+  opacity: 0.2;
+}
+
+
+/*-------------------------------個別事項------------------------------*/
+
+
+/*-------------------------------メインビジュアル------------------------------*/
+
+
+/*----コンテンツservice-----*/
+.service {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 140px;
+}
+
+.service__contents > h2 {
+  margin-top: 50px 0;
+}
+
+
+/*----コンテンツimage-----*/
+.image {
+  width: 100%;
+  background-image: url(../images/service.images/cleaning.jpg);
+}
+
+.image__contents > p {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.image__contents-ttl {
+  font-size: 100px;
+  color: white;
+  text-align: end;
+}
+
+
+/*----コンテンツbusiness-----*/
+.business {
+  position: relative;
+  padding-top: 200px;
+  margin-bottom: 200px;
+}
+
+.business__contents {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  border-collapse: collapse;
+  margin-bottom: 200px;
+}
+
+.business__contents-box {
+  width: 80%;
+  border-top: solid 0.3px #dedede;
+  border-left: solid 0.3px #dedede;
+  border-right: solid 0.3px #dedede;
+}
+
+.business__contents-box:nth-child(4) {
+  border-bottom: solid 0.3px #dedede;
+}
+
+.box__image img,
+.box__contents {
+  width: 100%;
+}
+
+.box__contents-ttl {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.box__contents-text {
+  font-size: 14px;
+  margin: 15px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+              .business__contents-box {
+                width: 45%;
+                margin: 0;
+                border-right: solid 0.3px #dedede;
+              }
+              .business__contents-box:nth-child(3) {
+                border-bottom: solid 0.3px #dedede;
+                border-right: none;
+              }
+              .business__contents-box:nth-child(1) {
+                border-right: none;
+              }
+}
+
+.viewmore {
+  margin: 50px 0;
+  margin-right: 5%;
+  text-align: end;
+  font-size: 20px;
+}  
+
+
+/*----コンテンツinfo-----*/
+
+.info {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.info__ricruit,
+.info__Contact {
+  text-decoration: none;
+  color: white;
+  width: 50%;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.info__ricruit {
+  background-image: url(../images/service.images/recruit.jpg);
+  background-position-x: 10%;
+  background-position-y: 10%;
+}
+
+.info__Contact {
+  background-image: url(../images/service.images/contact.jpg);
+  background-position-x: 40%;
+}
+
+.info__ricruit-catchcopy {
+  font-size: 40px;
+  font-weight: bold;
+}

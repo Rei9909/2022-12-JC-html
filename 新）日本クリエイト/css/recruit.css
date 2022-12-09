@@ -1,0 +1,192 @@
+.main {
+  font-family: 'Shippori Mincho', serif;
+  width: 100%;
+  background-color: #FBFBFB;
+  overflow: hidden;
+}
+
+.main__line {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*-------------------------------共通事項------------------------------*/
+
+.ttl {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.ttl__main {
+  font-size: 60px;
+}
+
+.ttl__sub {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.move {
+  font-size: 16px;
+}
+
+
+/*--コンテンツ（タイトルから８％寄せ）--*/
+.recruit__contents,
+.policy__contents,
+.recruitment__contents,
+.contact__contents {
+  margin-left: 8%;
+}
+
+
+/*-------------------------------opacity------------------------------*/
+
+
+/*--opacity-top--*/
+.opacity-recruit {
+  position: absolute;
+  right: -13%;
+  top: 420px;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 180px;
+  color: #c4c4c4;
+  opacity: 0.2;
+}
+
+
+/*--opacity-center--*/
+.opacity__teamwork {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /*----基準中央へ ↓----*/
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /*----基準中央へ ↑----*/
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 180px;
+  color: #c4c4c4;
+  opacity: 0.2;
+}
+
+
+/*-------------------------------個別事項------------------------------*/
+
+
+/*-------------------------------メインビジュアル------------------------------*/
+
+.recruit {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.recruit__contents {
+  padding-top: 100px;
+}
+
+.teamwork {
+  background-image: url(../images/service.images/contact.jpg);  /*----（※）写真差し替え----*/
+
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+
+
+
+/*-------------------------------メインコンテンツ------------------------------*/
+
+
+/*----コンテンツpolicy-----*/
+.policy {
+  padding: 100px 0;
+}
+
+
+/*----コンテンツrecruitment-----*/
+.recruitment {
+  padding: 100px 0;
+}
+
+.recruitment__contents {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.recruitment__contents-item {
+  width: 100%;
+  display: flex;
+  padding: 40px 0;
+  border-top: solid 1px #c4c4c4;
+}
+
+.recruitment__contents-item:first-child{
+  border-top: solid 2px black;
+}
+
+.item__ttl {
+  width: 30%;
+}
+
+.item__text {
+  width: 70%;
+}
+
+.item__text-unit {
+  margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+  .recruitment__contents-item {
+    display: block;
+  }
+  .item__ttl {
+    padding-bottom: 40px;
+  }
+  .item__ttl,.item__text {
+    width: 100%;
+  }
+  .item__text {
+    margin-left: 5%;
+  }
+}
+
+
+
+/*----コンテンツcontact-----*/
+.contact__contents {
+  margin-bottom: 200px;
+}
+.contact__contents > p {
+  width: 70%;
+  margin: 0 0 0 auto;
+  margin-top: 40px;
+}
+
+.contact__contents > div {
+  text-align: end;
+  margin-top: 50px;
+}
+
+@media screen and (max-width:768px) {
+  .contact__contents>p {
+    width: 100%;
+    margin-left: 5%;
+  } 
+}

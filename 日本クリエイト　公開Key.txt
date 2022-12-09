@@ -1,0 +1,13 @@
+PS C:\xampp\htdocs\●制作\2022.10日本クリエイト株式会社> cat C:\Users\Rei/.ssh/id_rsa.pub.
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDG112zC2zg1F81kCI+pWdSPiHj5g+L+xxTHD+tnCVL3M4MB1MgMjcvjTuRgnm9UaEe5SaEcAU8l3qdBewZE8LPeFEkukvnJLLv11dDUcMdYmyAyHVr49hUCGV8YAR3cD/y7fqPh8OKu7MjOEb3kiKPsdTsXnFwV3TKQ3UpD7lGwwoXCyo0k9H4XpTTrb9bQYGYafPnPi7FVWhBevHQR4U1QWBXjYHPZ//UAq2/6MtepXxwBWG0NZCF7GpKIN1bh3kWh7ymqT6xjZpUSxzjoA8KuYL07YRDFxS3/1eYPeXrSvHpiTc8cinb/VW7MhifNY5kjmCvN3wW/SlwvQ1h+ECrwzVqBbDsjXEAcHrK5PRiGl2ACm8f2s7/u8xEhCpxP6vqBAAmjiLv5jhDiymNhVLe1BEz3iPeED3MLmKnATGHHPCmeTTkxy3uH/hC1tYJ+nJF0nWMYT4iOS5a01TGqOawCKxfi48F/K9H/4uWP4zP9pebvwvb8gvMZ4tD4NjGbU8= rei@LAPTOP-MAL9O9D6
+
+
+C:\xampp\htdocs\●制作\2022.10日本クリエイト株式会社>heroku config
+=== protected-inlet-57556 Config Vars
+APP_KEY:     base64:134mURpdSS/jme79s5UxMvcFLUHPPF5Da9npMt8HxXk=
+DB_DATABASE: q9tzhamjnxledh30
+DB_HOST:     bv2rebwf6zzsv341.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+DB_PASSWORD: uokbqrwtywbrki50
+DB_USERNAME: euz11syu0p44hbu8
+JAWSDB_URL:  mysql://euz11syu0p44hbu8:uokbqrwtywbrki50@bv2rebwf6zzsv341.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/q9tzhamjnxledh30
+LOG_CHANNEL: errorlog

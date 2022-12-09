@@ -1,0 +1,698 @@
+.main {
+  font-family: 'Shippori Mincho', serif;
+  width: 100%;
+  background-color: #FBFBFB;
+  overflow: hidden;
+}
+
+.main__line {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*-------------------------------共通事項------------------------------*/
+
+.ttl {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.ttl__main {
+  font-size: 60px;
+}
+
+.ttl__sub {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.move {
+  font-size: 16px;
+}
+
+
+/*--コンテンツ（タイトルから８％寄せ）--*/
+.JapanCreate__contents ,
+.service__contents,
+.news__flex {
+  margin-left: 8%;
+}
+
+.JapanCreate {
+  margin-top: 200px;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+
+/*-------------------------------opacity------------------------------*/
+
+
+/*--opacity-bottom--*/
+.opacity__JapanCreate {
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 180px;
+  color: #c4c4c4;
+  opacity: 0.2;
+}
+
+
+/*--opacity-特殊--*/
+.opacity__service {
+  position: absolute;
+  right: -15%;
+  bottom: -130px;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 180px;
+  color: #c4c4c4;
+  opacity: 0.2;
+}
+
+
+
+/*-------------------------------個別事項------------------------------*/
+
+
+/*-------------------------------メインビジュアル------------------------------*/
+.top__img {
+  padding-top: 300px;
+  width: 100%;
+  height: 530px;
+  object-fit: cover;
+  object-position: 50% 100%;
+  position: relative;
+}
+
+.top__ttl {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 285px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%,
+    -50%);
+}
+
+.top__ttl-text {
+  font-size: 25px;
+  padding-bottom: 7px;
+}
+
+.top__ttl-name {
+  font-size: 65px;
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width:768px) {
+	.top__img{
+		height: 440px;
+	}
+	.top__ttl-text {
+    font-size: 16px;
+    padding-bottom: 3px;
+	}
+	.top__ttl-name {
+    font-size: 43px;
+    margin-top: 10px;
+	}
+}
+
+/*-------------------------------メインコンテンツ------------------------------*/
+
+
+/*----コンテンツjapancreate-----*/
+.JapanCreate {
+  padding-top: 200px;
+}
+
+
+/*-----------------------コンテンツService-------------------------*/
+.Service {
+  width: 100%;
+  border-top: solid .5px #c4c4c4;
+  border-bottom: solid .5px #c4c4c4;
+  margin-top: 200px;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.service__contents {
+  position: relative;
+}
+
+/*--コンテンツServiceの写真--*/
+.Service__box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 250px;
+  margin-bottom: 100px;
+}
+
+.Service__box-contents {
+  width: 20%;
+  border: solid 0.3px #dedede;
+}
+
+img{
+  width: 100%;
+  height:auto;
+}
+
+.box__contents {
+  width: 100%;
+}
+
+.box__contents-ttl {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.box__contents-text {
+  font-size: 13px;
+  margin: 0 15px;
+  margin-bottom: 20px;
+  line-height: 18px;
+}
+
+@media screen and (max-width:768px) {
+  .service__box-contents {
+    width: 90%;
+    margin-bottom: 0;
+  }
+	.service__box {
+    display: block;
+	margin-left: 10%;
+	}
+}
+
+
+/*-----------------------コンテンツCompany , recruit-------------------------*/
+.company {
+  width: 100%;
+  border-bottom: solid .5px #c4c4c4;
+}
+
+.company__img,
+.recruit__img {
+  background-size: cover;
+  margin-top: 50px;
+  width: 100%;
+  height: 450px;
+  padding-bottom: 50px;
+  display: table;
+  position: relative;
+}
+
+.company__img {
+  background-image: url(../images/index.images/company.jpg);
+}
+
+.recruit__img {
+  background-image: url(../images/index.images/recruit-3.jpeg);
+}
+
+.company__back-contents {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 25%;
+}
+
+.recruit__back-contents {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50%;
+  padding-right: 5%;
+}
+
+.opacity__company,
+.opacity__recruit {
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  opacity: 0.8;
+  right: 0;
+  bottom: 0;
+}
+
+.opacity__company {
+  font-size: 180px;
+}
+
+.opacity__recruit {
+  font-size: 140px;
+}
+
+.company__hiddentext,
+.recruit__hiddentext {
+  display: none;
+}
+
+
+@media screen and (max-width:768px) {
+  .company__img,
+  .recruit__img {
+    height: 250px;
+  }
+	.company__back-contents,
+  .recruit__back-contents {
+    display: none;
+	}
+	.opacity__company {
+    font-size: 80px;
+  }
+  .opacity__recruit {
+    display: none;
+  }
+	.company__hiddentext,
+  .recruit__hiddentext {
+    display: block;
+    width: 80%;
+    opacity: 1.0;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 40px 13% 0 14%;
+	}
+}
+
+
+/*-----------------------コンテンツNews-------------------------*/
+.news {
+  margin-top: 150px;
+}
+
+.news__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__list {
+  width: 100%;
+  border-top: solid 3px black;
+  font-size: 16px;
+  line-height: 70px;
+  margin-top: 20px;
+}
+
+.news__list-item {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.news__list-item:not(:nth-child(4)) {
+  border-bottom: solid 1px black;
+}
+
+.news__list-day {
+  width: 35%;
+}
+
+.news__img {
+  width: 40%;
+}
+
+.news__img-img {
+  width: 100%;
+  height: auto;
+}
+
+.news__contents {
+  text-decoration: none;
+  color: black;width: 50%;
+}
+
+@media screen and (max-width:768px) {
+  .news__flex {
+    display: block;
+  }
+  .news__contents {
+    width: 100%;
+  }
+  .news__list {
+  border-top: solid 2px black;
+  font-size: 13px;
+  margin-top: 20px;
+}
+  .news__ttl {
+    width: 100%;
+    font-size: 20px;
+    border-bottom: solid 2px black;
+  }
+  .news__img {
+    padding-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/*-----------------------Contact-------------------------*/
+.Contact {
+	width: 100%;
+	margin: 300px 0;
+	text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 330px;
+    padding: 0px 3rem;
+    box-sizing: border-box;
+	
+}
+
+.Contact__ttl-main {
+  font-size: 80px;
+/*------ホバーアンダーライン設定------*/
+  display: inline-block;
+  padding-bottom: 4px;
+  position: relative;
+}
+.Contact__ttl-main::after {
+  background-color: #282828;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 1.5px;
+  position: absolute;
+  transition: .7s all;
+  width: 0;
+  left: 25%;
+}
+.Contact__ttl-main:hover::after {
+  width: 50%;
+}
+/*-----------↑ここまで↑----------------*/
+
+
+.Contact__ttl-sub {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #3F3F3F;
+}
+
+.Contact__behind{
+	text-decoration: none;
+	color: #282828;
+	font-weight: bold;
+	position: relative;
+    margin-bottom: 0.2rem;
+    text-align: center;
+}
+
+
+/*-------------Contactレスポンシブ------------------*/
+@media screen and (max-width:768px) {
+	 .Contact__ttl-main {
+	  font-size: 50px;
+	  }
+	.Contact__ttl-main::after {
+	  left: 5%;
+	}
+	.Contact__ttl-main:hover::after {
+	  width: 90%;
+	}
+	.Contact__ttl-sub {
+  	font-size: 15px;
+	}
+	.Contact__behind::before {
+    top: -50px;
+    font-size: 120px;
+	}
+}
+
+
+/*--------------------------------------------アニメーション----------------------------------------------------*/
+
+
+
+/*========= ページトップのためのCSS ===============*/
+/*リンクの形状*/
+#page-top a{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background:#fbfbfb;
+	border: 0.5px solid #282828;
+	border-radius: 3px;
+	width: 60px;
+	height: 60px;
+	color: #282828;
+	text-align: center;
+	text-transform: uppercase; 
+	text-decoration: none;
+	font-size:0.9rem;
+	transition:all 0.3s;
+}
+
+#page-top a:hover{
+	background: #98D6F1;
+	opacity: 0.8;
+	color: #000000;
+	transition: 1.0s;
+}
+
+/*リンクを右下に固定*/
+#page-top {
+	position: fixed;
+	right: 10px;
+	z-index: 2;
+    /*はじめは非表示*/
+	opacity: 0;
+	transform: translateY(100px);
+}
+
+/*　上に上がる動き　*/
+
+#page-top.UpMove{
+	animation: UpAnime 1s forwards;
+}
+@keyframes UpAnime{
+  from {
+    opacity: 0;
+	transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+	transform: translateY(0);
+  }
+}
+
+/*　下に下がる動き　*/
+
+#page-top.DownMove{
+	animation: DownAnime 1s forwards;
+}
+@keyframes DownAnime{
+  from {
+  	opacity: 1;
+	transform: translateY(0);
+  }
+  to {
+  	opacity: 1;
+	transform: translateY(100px);
+  }
+}
+
+/*----------トップページスクロールのレスポンシブ-------------*/
+@media screen and (max-width:768px) {
+	#page-top a{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background:#fbfbfb;
+	border: 0.3px solid #282828;
+	border-radius: 0.5px;
+	width: 40px;
+	height: 40px;
+	color: #282828;
+	text-align: center;
+	text-transform: uppercase; 
+	text-decoration: none;
+	font-size:0.5rem;
+	transition:all 0.3s;
+}
+
+#page-top a:hover{
+	background: #98D6F1;
+	opacity: 0.8;
+	color: #000000;
+	transition: 1s;
+}
+
+/*リンクを右下に固定*/
+#page-top {
+	position: fixed;
+	left: 10px;
+	z-index: 2;
+    /*はじめは非表示*/
+	opacity: 0;
+	transform: translateY(100px);
+}
+
+/*　上に上がる動き　*/
+
+#page-top.UpMove{
+	animation: UpAnime 1s forwards;
+}
+}
+@keyframes UpAnime{
+  from {
+    opacity: 0;
+	transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+	transform: translateY(0);
+  }
+}
+
+/*　下に下がる動き　*/
+
+#page-top.DownMove{
+	animation: DownAnime 1s forwards;
+}
+@keyframes DownAnime{
+  from {
+  	opacity: 1;
+	transform: translateY(0);
+  }
+  to {
+  	opacity: 1;
+	transform: translateY(100px);
+  }
+}
+
+
+
+/*-------------------------------スクロールscrolldown------------------------------*/
+/*スクロールダウン全体の場所*/
+.scrolldown1{
+    /*描画位置※位置は適宜調整してください*/
+	position:absolute;
+	text-align: center;
+	bottom:10px;
+    /*全体の高さ*/
+	height:50px;
+	left: 50%;
+	top: 1000px;
+}
+
+/*Scrollテキストの描写*/
+.scrolldown1 span{
+    /*描画位置*/
+	position: absolute;
+	left:-31px;
+	top: -20px;
+    /*テキストの形状*/
+	color: #282828;
+	font-size: 1.4rem;
+	letter-spacing: 0.1em;
+}
+@media screen and (max-width:1600px) {
+	.scrolldown1 span{
+		left:-24px;
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width:768px) {
+	.scrolldown1{
+		height:50px;
+		top: 830px;
+	}
+	.scrolldown1 span{
+		left:-18px;
+		top: -16px;
+		font-size: 0.7rem;
+	}
+}
+/* 線の描写 */
+.scrolldown1::after{
+	content: "";
+    /*描画位置*/
+	position: absolute;
+	top: 0;
+    /*線の形状*/
+	width: 1px;
+	height: 30px;
+	background: #000;
+    /*線の動き1.5秒かけて動く。永遠にループ*/
+	animation: pathmove 1.5s ease-in-out infinite;
+	opacity:0;
+}
+
+/*高さ・位置・透過が変化して線が上から下に動く*/
+@keyframes pathmove{
+	0%{
+		height:0;
+		top:0;
+		opacity: 0;
+	}
+	30%{
+		height:30px;
+		opacity: 1;
+	}
+	100%{
+		height:0;
+		top:50px;
+		opacity: 0;
+}
+}
+/*-----------------------画像の拡大-------------------------*/
+
+.zoomIn img{
+	transform: scale(1);
+	transition: .5s ease-in-out;/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.zoomIn a:hover img{/*hoverした時の変化*/
+	transform: scale(1.1);/*拡大の値を変更したい場合はこの数値を変更*/
+}
+
+/*　画像のマスク　*/
+
+.mask{
+    display: block;
+    line-height: 0;/*行の高さを0にする*/
+    overflow: hidden;/*拡大してはみ出る要素を隠す*/
+}
+.zoomIn a:hover{
+	cursor: default;
+}
+/*-----------------------------ViewMoreボタン----------------------------------------*/
+/*== 矢印の線がループして伸縮 */
+
+.viewmore_btn{
+	display: block;
+	color: #282828;
+    margin: 140px 0;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+    outline: none;
+}
+@media screen and (max-width:768px) {
+	.viewmore_btn{
+		margin: 80px;
+		font-size: 18px;
+	}
+	}
+.more1 a:hover{
+	color: #00BAFF;
+	transition: 1s;
+}

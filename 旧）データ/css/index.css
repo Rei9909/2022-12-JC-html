@@ -1,0 +1,389 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*　上に上がる動き　-----------------------------------------------------*/
+
+#header.UpMove{
+	animation: UpAnime 0.5s forwards;
+}
+
+@keyframes UpAnime{
+  from {
+    opacity: 1;
+	transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+	transform: translateY(-100px);
+  }
+}
+
+/*　下に下がる動き　*/
+
+#header.DownMove{
+	animation: DownAnime 0.5s forwards;
+}
+@keyframes DownAnime{
+  from {
+  	opacity: 0;
+	transform: translateY(-100px);
+  }
+  to {
+  	opacity: 1;
+	transform: translateY(0);
+  }
+}
+/*---------------------------------------------------------------------*/
+/*-------------------------------
+メインビジュアル
+---------------------------------*/
+.whitebox{
+	width: 1000px;
+	height: 200px;
+	background-color: #FFFFFF;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.catchcopy{
+	font-size: 28px;
+	position: absolute;
+	top: 215px;
+	left: 300px;
+	
+}
+.create{
+	
+	font-size: 80px;
+	position: absolute;
+	top: 244px;
+	left: 195px
+}
+
+#main_visual img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*--------------------------------
+メインコンテンツ
+---------------------------------*/
+#topservice{
+	margin: 180px 0 40px 0;
+	padding: 30px 0 10px 0;
+	text-align: center;
+}
+section{
+	margin: 200px 0 40px 0;
+	padding: 30px 0 10px 0;
+	text-align: center;
+}
+/*事業内容画像編集*/
+.frame {
+	display: inline-block;
+	position: relative;
+}
+.frame:after {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+	transform: rotate(2deg); /* 回転させる */
+	background: #fff;
+	z-index: -1;
+}
+/*会社情報画像編集*/
+.frame1 {
+	display: inline-block;
+	position: relative;
+}
+.frame1:after {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+	transform: rotate(-2deg); /* 回転させる */
+	background: #fff;
+	z-index: -1;
+}
+/*採用情報画像編集*/
+.frame2 {
+	display: inline-block;
+	position: relative;
+}
+.frame2:after {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+	transform: rotate(2deg); /* 回転させる */
+	background: #fff;
+	z-index: -1;
+}
+/*---------------------事業内容----------------------*/
+#service{									/*メインコンテンツ文字編集↓*/
+	font-family: a-otf-jun-pro, sans-serif;
+    position: relative;
+    margin-bottom: -5px;;
+    font-weight: bold;
+	color: #000;
+    font-size: 36px;
+    text-align: center;
+}
+
+#service::before {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #29abe2;
+    font-size: 90px;
+    text-transform: uppercase;
+    content: 'SERVICE';
+	opacity: 0.3;
+	letter-spacing: 3px;
+    z-index: -1;
+}
+/*----------------------会社情報-----------------------*/
+#company{
+    position: relative;
+    margin-bottom: -5px;;
+    font-weight: bold;
+	color: #000;
+    font-size: 36px;
+    text-align: center;
+}
+
+#company::before {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #29abe2;
+    font-size: 90px;
+    text-transform: uppercase;
+    content: 'COMPANY';
+	opacity: 0.3;
+	letter-spacing: 3px;
+    z-index: -1;
+}
+/*------------------------採用情報---------------------*/
+#recruit{
+    position: relative;
+    margin-bottom: -5px;;
+    font-weight: bold;
+	color: #000;
+    font-size: 36px;
+    text-align: center;
+}
+
+#recruit::before {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #29abe2;
+    font-size: 90px;
+    text-transform: uppercase;
+    content: 'RECRUIT';
+	opacity: 0.3;
+	letter-spacing: 3px;
+    z-index: -1;
+}
+/*---------------------ニュース＆トピックス------------*/
+#news{
+    position: relative;
+    margin-bottom: -5px;;
+    font-weight: bold;
+	color: #000;
+    font-size: 36px;
+    text-align: center;
+}
+
+#news::before {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #29abe2;
+    font-size: 90px;
+    text-transform: uppercase;
+    content: 'NEWS&TOPICS';
+	opacity: 0.3;
+	letter-spacing: 3px;
+    z-index: -1;
+}
+											/*メインコンテンツ文字編集ここまで*/
+
+.border_underline{
+	margin:0px auto -10px;
+	width: 400px;
+    border-bottom: 0.5px solid #333;
+}
+.fas{
+	padding-top: 5px;
+	opacity: 0.4;
+}
+.size{
+	font-size: 2em;
+}
+.color{
+	color:  #29abe2;
+}
+img .contents-images{
+	margin: -5px auto 0;
+}
+
+.introduction{
+	margin: 20px 0 20px 0;
+	padding: 15px 0 10px 0 ;
+}
+
+
+/*-------------------view moreボタン------------------*/
+a.btn-border {
+  padding: 8px 30px 10px 30px;
+  font-size: 20px;
+  border: 0.75px solid #29abe2;
+  border-radius: 50px;
+  background: #fff;
+  text-decoration: none;
+  
+  color: #000;
+}
+
+a.btn-border:hover {
+  color: #fff;
+  background: #29abe2;
+  opacity: 0.7;
+  transition: 2.0s;
+}
+
+/*-------------------新着ニュース-------------------*/
+dt{
+	float: left;
+	padding-left: 60px;
+}
+dl{
+	line-height: 40px;
+	text-align: center;
+	
+}
+
+.box2 {
+	width: 700px;
+    position: relative;
+    margin: 20px 50px 50px 140px;
+    padding: 15px 0px 15px 100px;
+    border: solid 2px rgba(41,171,226,0.3) ;
+    border-radius: 10px;
+	box-sizing: border-box;
+	
+	
+}
+.box2 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 20px;
+    padding: 0 15px;
+    line-height: 1;
+    font-size: 18px;
+    background: #FFF;
+    color: #000;
+    font-weight: bold;
+	
+	
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.start {
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9000;
+}
+.start p {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+	font-size: 80px;
+	color: #1B1B1B;
+}
+
+/*========= LoadingのためのCSS ===============*/
+
+/* Loading背景画面設定　*/
+
+#splash {
+    /*fixedで全面に固定*/
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background:#333;
+  text-align:center;
+  color:#fff;
+}
+
+/* Loadingバー中央配置　*/
+#splash_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    z-index: 999;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+/*IE11対策用バーの線の高さ※対応しなければ削除してください*/
+#splash_text svg{
+    height: 2px;
+}
+
+
+
+
+/*------------サイト入ったら発火の動き------------*/
+/* その場で */
+.fadeIn{
+animation-name:fadeInAnime;
+animation-duration:6s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+
+@keyframes fadeInAnime{
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}    
+

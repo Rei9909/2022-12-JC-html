@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>日本クリエイト株式会社　japancreate</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/common.css">
+<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+<meta name="Description" content="愛知、名古屋でのマンション清掃、オフィス清掃は日本クリエイトにお任せください。">
+<meta name="Keywords" content="日本クリエイト株式会社,日本クリエイト,清掃会社,マンション清掃,オフィス清掃,清掃,名古屋,求人">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+<script type="text/javascript" src="../js/smoothscroll2.js"></script>
+<script type="text/javascript" src="../js/fadeanimated.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="main_visual" type="boolean" value="true" -->
+<!-- TemplateParam name="main_contents" type="boolean" value="true" -->
+<!-- TemplateParam name="id" type="text" value="" -->
+</head>
+<body id="@@(id)@@">
+	
+
+<div id="top">
+	<!--ヘッダー-->
+
+	
+<div class="box fadeIn">
+<header id="header" class="DownMove">
+	<img src="../images/logo.png" width="55" height="55" alt="会社ロゴ" id="logo">
+	<p>日本クリエイト株式会社</p>
+
+	<div id="global_nav">
+		<nav>
+      		<ul>
+		  		<li><a href="../index.html">ホーム</a></li>
+		  		<li><a href="../service.html">サービス</a></li>
+		  		<li><a href="#">会社案内</a></li>
+		  		<li><a href="#">採用情報</a></li>
+		  		<li><a href="#">お問い合わせ</a></li>
+      		</ul>
+		</nav>
+	</div>
+</header>
+<!-- TemplateBeginIf cond="_document['main_visual']" --><!-- TemplateBeginEditable name="EditRegion3" -->
+
+<!-- TemplateEndEditable --><!-- TemplateEndIf --></div>
+	
+	
+	
+	<!--メインコンテンツ--><!-- TemplateBeginIf cond="_document['main_contents']" --><!-- TemplateBeginEditable name="EditRegion4" -->
+  
+    <!-- TemplateEndEditable --><!-- TemplateEndIf --><!--フッター-->
+<footer>
+		<div id="footernav">
+     		<p><a href="../index.html">ホーム</a><br>
+     		<a href="#">サービス</a><br>
+     		<a href="#">会社概要</a><br>
+     		<a href="#">採用情報</a><br>
+     		<a href="#">お問い合わせ</a><br>
+     		<a href="#">オフィスビル清掃</a><br>
+     		<a href="#">マンション清掃</a><br>
+    		<a href="#">求人募集</a><br>
+     		<a href="#">見積依頼</a><br>
+     		<a href="#">代表ごあいさつ</a><br>
+     		<a href="#">プライバシーポリシー</a><br>
+     		<a href="#">サイトマップ</a></p>
+	 	</div>
+	
+<div id="companyinfo">
+	<div id="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2305.2648154412077!2d136.98343076961874!3d35.203062128309625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60036fd42973f6b5%3A0x6b7338a2d836947b!2z5pel5pys44Kv44Oq44Ko44Kk44OI77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1653013046792!5m2!1sja!2sjp" width="380" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+		
+	<table>
+		<tr>
+			<td>本社</td>
+			<td>| 〒463-0011 名古屋市守山区小幡５丁目10-4</td>
+		</tr>
+		<tr>
+			<td>連絡先</td>
+			<td>| Tel <a href="tel:0527936129">052-793-6129</a>／Fax 052-791-7544</td>
+		</tr>
+	</table>			
+</div>
+</footer>
+	
+	
+	<!--フッター下-->
+  <div class="last">
+	<img src="../images/logo.jpg" width="45" height="45" alt="会社ロゴ" id="bottomlogo">
+	<a href="../index.html" class="japancreate">日本クリエイト株式会社</a>
+	<div class="page">
+		<a href="#top" class="pagetop">PageTop</a>
+	</div>
+ 	<p class="copy"> Ⓒ2022japan create Co.Ltd.</p>
+  </div>
+</div>
+	
+	
+	
+	<script type="text/javascript" src="../js/menu.js"></script>
+	
+	
+</body>
+</html>
